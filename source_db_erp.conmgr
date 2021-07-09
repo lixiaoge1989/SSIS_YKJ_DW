@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="source_db_erp"
+  DTS:DTSID="{6B9F8BAC-55F7-4DBF-819D-D79A65E4C44C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=211.154.141.149,34064;User ID=RD14064;Provider=SQLOLEDB.1;Application Name=SSIS-SSIS_YKJ_DW-{6B9F8BAC-55F7-4DBF-819D-D79A65E4C44C}211.154.141.149,34064.RD14064;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANj6Q3faGbEO0e+PzryTmzAAAAAACAAAAAAAQZgAAAAEAACAAAAAZsCbsPj3rAPyOGBLweLmveForSIMpWeJ1d/Zj/OAXhAAAAAAOgAAAAAIAACAAAADVSqkdqsJjKro1O6BFruq2lQabjhfSgIF6RCun/ML0pIAAAACqahWNY6TwYbomQlYo0jow+4FOgcV3W/iqh5fWiY79vTxOw884zi5TlFG8KwWmakaw0kEeNR2xp479yYjQouJ1vlEVboxxuY4Te4T8kew2TlLQ4CfCCfu/u6Jtqfr/HICrcybf9FklIeP8YveSXcUbyo7VlTYJY1U0ykH2lFraCUAAAAAuLF2MfxuVhcQcooI5njLyOP6DyLRFYIlKXug78/0XqPM/jReG/mjydWIsAnBSh8y/6aFVVyL0j+bMn5oUoBTW</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
